@@ -1,5 +1,3 @@
-## FastAPI Rate Limiter Middleware
-
 # FastAPI Rate Limiter Middleware
 
 ## Project Description
