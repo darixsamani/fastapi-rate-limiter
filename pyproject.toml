@@ -1,0 +1,19 @@
+[project]
+name = "fastapi-rate-limiter"
+version = "0.1.0"
+description = "FastAPI middleware for IP-based rate limiting using Redis, with configurable request limits and time windows."
+readme = "README.md"
+authors = [
+    { name = "Darix SAMANI SIEWE", email = "samanidarix@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "redis",
+    "starlette",
+]
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
