@@ -1,1 +1,1 @@
-from .rater_limiter import RateLimiterMiddleware
+from .rate_limiter import RateLimiterMiddleware
