@@ -45,7 +45,7 @@ This project implements a **Rate Limiting Middleware** for a FastAPI application
 ```python
 # main.py
 from fastapi import FastAPI
-from fastapi_rate_limiter import RateLimiterMiddleware
+from fastapi_rlr import RateLimiterMiddleware
 
 app = FastAPI()
 
