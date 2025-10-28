@@ -1,6 +1,6 @@
 [project]
 name = "fastapi_rlr"
-version = "0.1.0"
+version = "0.1.1"
 description = "FastAPI middleware for IP-based rate limiting using Redis, with configurable request limits and time windows."
 readme = "README.md"
 authors = [
@@ -19,4 +19,4 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["fastapi_rlr"]
+packages = ["fastapi_rate_limiter"]
