@@ -1,6 +1,10 @@
 # FastAPI Rate Limiter Middleware
-
-## Project Description
+[![FastAPI](https://img.shields.io/badge/FastAPI-async%20framework-009688?style=flat&logo=fastapi)](https://fastapi.tiangolo.com/)
+[![RateLimiter](https://img.shields.io/badge/Feature-Rate%20Limiter-FF9800?style=flat&logo=clockify)](#)
+[![Middleware](https://img.shields.io/badge/Core-Middleware-795548?style=flat&logo=fastapi)](#)
+[![Docker](https://img.shields.io/badge/Deployed%20With-Docker-2496ED?style=flat&logo=docker)](https://www.docker.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Stable-success)]()
 
 This project implements a **Rate Limiting Middleware** for a FastAPI application. The middleware restricts how many requests a client (identified by IP address) can make within a defined time window. It helps protect your API from abuse, excessive traffic, and denial-of-service (DoS) attacks by throttling requests at the middleware level before they reach the main application logic.
 
